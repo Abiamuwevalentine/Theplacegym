@@ -269,9 +269,7 @@ justify-content:center;
 }
 
 
-#message{
- color: white;
-}
+
 
 
 
@@ -373,6 +371,7 @@ body{
 
 #message{
   width: 52rem;
+ color: white;
 }
 
 
