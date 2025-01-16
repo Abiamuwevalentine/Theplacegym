@@ -274,7 +274,7 @@ justify-content:center;
 
 /*responsiveness*/
 /*Tablet media query*/
-@media (min-width:769px) and (max-width:1024px){
+@media (min-width:551px) and (max-width:1024px){
 body{
   font-size: 16px;
 }
@@ -339,12 +339,17 @@ body{
 }
 
 .boxingimg{
-  margin-left: 17rem;
+  margin-left: 0rem;
+  display: block;
+  justify-self: center;
 }
 
 
 .join_movement{
   font-size: small;
+  display: block;
+  text-align: center;
+  justify-self: center;
 }
 
 .reservation{
@@ -370,7 +375,7 @@ body{
 
 
 /*mobile media query*/
-@media(min-width:250px) and (max-width:768px){
+@media(min-width:250px) and (max-width:550px){
 
   .logo img{
     width: 7rem;
@@ -397,6 +402,7 @@ body{
 .contentTrainers{
   width: 100%;
  margin-left: 0rem;
+ display: block;
  
 }
 
@@ -442,12 +448,15 @@ justify-content:space-around;
 }
 
 .trainers_text{
-max-width: 50%;
-margin-left:7rem;
+max-width: 70%;
+margin-left:0rem;
+display: block;
+justify-self: center;
 text-align: center;
+/*text-align: center;
 text-justify: auto;
 display: flex;
-justify-content:space-around;
+justify-content:space-around;*/
 
 }
 
@@ -564,7 +573,7 @@ margin-top: -40rem;
 
 .join_movement{
   font-size: small;
-  margin-left: 4rem;
+  display: block;
 }
 
 
