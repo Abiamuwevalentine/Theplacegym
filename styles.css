@@ -1,0 +1,611 @@
+
+.wrapper{
+    grid-area: Firstsection;
+    min-height: 755px;
+    background:url("img/bg_img.jpg") no-repeat center center;
+    background-size: cover;
+    display: grid;
+    /*align-content:center;*/
+    color: white;
+  }
+
+  .featured{
+    text-align:center;
+    font-size: 50px;
+  }
+
+  /*contenttrainers*/
+  .contentTrainers{
+    grid-area: Secondsection;
+    background:white;
+  }
+.imgTrainers1{
+    max-height: 480px;
+    max-width: 400px;
+}
+
+
+.imgTrainers2{
+  max-height: 480px;
+  max-width: 400px;
+
+}
+
+
+
+  .trainers{
+    max-width: 100%;
+    margin:auto 20rem;
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+    grid-gap: 10px;
+    justify-content:center;
+    
+                         
+  }
+
+  .btn{
+    padding:10px 15px;
+    background: black;
+    color: white;
+    margin-left:3rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  /*membership*/
+  .membership{
+    max-width: 200rem;
+    grid-area: thrirdsection;
+    background: url("img/img5.jpg")no-repeat center center;
+    background-size: cover;
+    max-height: 800px;
+  }
+
+ .membership >h2{
+    color: white;
+    text-align: center;
+    font-weight: 600;
+    font-size: 50px;
+  }
+
+  .sampleText{
+    max-width: 60%;
+    margin:50px 150px;
+    color: white;
+  }
+
+  #check{
+   margin-bottom: auto;
+   font-size: 3rem;
+  }
+
+  .btn2{
+    padding:15px 30px;
+    background: white;
+    color: rgb(4, 4, 4);
+    margin: 50px 100px;
+    max-width: 100%;
+    border:solid 4px rgb(5, 5, 5);
+  }
+
+  /*next sectoion*/
+
+  .man{
+    background: white;
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  .imgman{
+    max-width: 400px;
+    max-height: 400px;
+    margin: 200px 40px;
+  }
+  .about{
+    background: black;
+    color: white;
+    width: 100%;
+  }
+
+  .about >p{
+    margin: 60px;
+    word-spacing:50%;
+    font-size:20px;
+  }
+
+  #aboutus_text{
+    width:80%;
+  }
+
+  
+  .about >h1{
+    margin: 60px;
+    word-spacing:50%;
+  }
+
+
+
+  .number{
+    width: 10rem;
+  }
+
+  
+
+  .number >h1{
+    align-items: center;
+    font-size: 70px;
+  }
+
+  .aboutUs{
+    background:white;
+    grid-area: fourthsection;
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+   
+  }
+
+  /*what people say*/
+  .people{
+    grid-area: fifthsection;
+    background: url("img/img3.jpg") no-repeat center center;
+    background-size: cover;
+    color: white;
+    height: 100vh;
+  }
+
+.people >div>h2{
+  margin-left: 20rem;
+  font-size: 50px;
+}
+
+.people >div>p{
+  margin-left: 20rem;
+  width: 50%;
+  font-size: 20px;
+}
+
+.nick{
+  margin-left: 20rem;
+  font-weight: 800;
+  font-size: 30px;
+}
+
+.btn3{
+  padding: 15px 30px;
+  background-color: black;
+  color: white;
+  margin-left: 20rem;
+  border: 2px solid beige;
+}
+
+/*join the movement*/
+.movement{
+  grid-area: sixthsection;
+background:white;
+max-width: 100%;
+display: grid;
+grid-template-columns:repeat(2,1fr);
+grid-gap: 10px;
+justify-content:center;
+    
+}
+
+
+.boxingimg{
+  max-height: 40rem;
+  max-width: 50rem;
+  margin-left: 5rem;
+  margin-bottom: -1rem;
+}
+
+.join_movement{
+  width: 50%;
+  margin: 0 auto;
+  margin-top:60px;
+}
+
+/*reservation*/
+.booking{
+  background-color: black;
+  margin-top: 2rem;
+  padding: 2rem;
+}
+
+.booking .heading-title{
+  color: white;
+  text-align: center;
+}
+
+.booking p{
+  color: white;
+  text-align: center;
+  width: 90%;
+  margin-left: 5rem;
+  
+}
+
+
+#book-form{
+  padding: 2rem;
+  background: black;
+}
+
+#flexi{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+#flexi #inputBox{
+  flex: 1 1 25rem;
+}
+
+
+#inputBox input{
+  width: 100%;
+  padding: 1.2rem 0.5rem;
+  font-size: 1rem;
+  color:black;
+  text-transform: none;
+  margin-top: 1.5rem;
+  border:2px solid black;
+}
+
+
+
+.booking #book-form .btn{
+  margin-top: 1.7rem;
+}
+
+#inputBox span{
+  color: white;
+}
+
+.booking #book-form .btn:hover{
+  transform: scale(1.1);
+  background-color: rgb(83, 76, 76);
+  color: black;
+}
+
+
+
+
+
+/*responsiveness*/
+/*Tablet media query*/
+@media (min-width:769px) and (max-width:1024px){
+body{
+  font-size: 16px;
+}
+  .wrapper{
+    width:100%;
+  }
+  .nav-wrapper{
+    grid-column: 1/5;
+  }
+.wrapper .featured{
+  font-size: 40px;
+  text-align: center;
+  margin-left: 15rem;
+}
+
+.trainers{
+  grid-template-columns: 1fr;
+}
+
+.contentTrainers{
+  width:100%;
+}
+
+.membership{
+  width:100%;
+}
+
+.membership .sampleText{
+  width: 50%;
+}
+
+.aboutUs{
+  width:100%;
+}
+
+
+#aboutus_text{
+  width: 20rem;
+  font-size: 15px;
+}
+#number_01{
+  font-size: 6rem;
+}
+
+.people{
+  width:100%;
+
+}
+.man{
+  width: 100%;
+  height: 100%;
+}
+
+.imgman{
+ margin-left:-5rem ;
+  height:60%;
+  width: 150%;
+}
+
+.movement{
+  grid-template-columns: 1fr;
+}
+
+.boxingimg{
+  margin-left: 17rem;
+}
+
+
+.join_movement{
+  font-size: small;
+}
+
+.reservation{
+  width: 100%;
+  height: 135%;
+}
+
+.form{
+  max-width: 100%;
+  margin-left: 15%;
+  color: rgb(209, 204, 204);
+}
+#Date{
+  width: 21rem;
+}
+
+#message{
+  width: 52rem;
+}
+
+
+}
+
+
+/*mobile media query*/
+@media(min-width:250px) and (max-width:768px){
+
+  .logo img{
+    width: 7rem;
+  }
+.wrapper{
+  width: 100%;
+  display: grid;
+  /*grid-template-areas: 
+  "Firstsection Firstsection Firstsection"
+  "Secondsection Secondsection Secondsection"
+  "thrirdsection thrirdsection thrirdsection"
+  "fourthsection fourthsection fourthsection"
+  "fifthsection fifthsection fifthsection"
+  "sixthsection sixthsection sixthsection"
+  "seventhsection seventhsection seventhsection";*/
+}
+.wrapper .featured{
+  font-size: 20px;
+  margin-top: -10rem;
+  margin-left:0rem;
+  
+}
+
+.contentTrainers{
+  width: 100%;
+ margin-left: 0rem;
+ 
+}
+
+.contentTrainers .featured{
+  font-size: 30px;
+  margin-left: 0rem;
+}
+
+.trainers{
+  grid-template-columns: 1fr;
+  margin:0 auto;
+}
+
+
+.tutor{
+margin-left: 1rem;
+}
+
+
+.imgTrainers1{
+  max-height: 400px;
+  max-width: 400px;
+  display: flex;
+  justify-self:center ;
+}
+
+
+.imgTrainers2{
+  max-height: 450px;
+  max-width: 260px;
+  display: flex;
+  justify-self:center ;
+}
+
+
+
+.tutor > h3{
+  margin-left: 1rem;
+  text-align: center;
+text-justify: auto;
+display: flex;
+justify-content:space-around;
+}
+
+.trainers_text{
+max-width: 50%;
+margin-left:7rem;
+text-align: center;
+text-justify: auto;
+display: flex;
+justify-content:space-around;
+
+}
+
+.btn{
+ margin-left:0rem;
+ width: 6rem;
+ display: flex;
+justify-self: center;
+
+}
+
+.membership{
+  width: 100%;
+  height:100%;
+  margin-left: 0rem;
+}
+
+.membership >h2{
+  font-size: 20px;
+  margin-left: 1.2rem;
+}
+
+#check{
+  font-size: 15px;
+  max-width: 100rem;
+}
+.membership .sampleText{
+  margin-top: 0rem;
+  width:100%;
+  margin-left: 5rem;
+  margin-bottom:2rem ;
+}
+.btn2{
+  max-width: 10rem;
+  margin-left: 5rem;
+}
+.aboutUs{
+  width: 100%;
+  max-height: 100px;
+  grid-template-columns:1fr;
+  margin-bottom: 100rem;
+}
+
+
+
+
+#aboutus_text{
+ width: 80%;
+ margin-left: 1rem;
+ font-size: 15px;  
+
+}
+
+
+
+.about{
+  width: 100%;
+  height: 100%;
+}
+
+.man{
+ width: 100%;
+  height: 100%;
+  margin-left: -2rem;
+  margin-top: 0rem;
+}
+
+
+.imgman{
+  max-width: 270px;
+  max-height: 350px;
+  margin: 30px 20px;
+  width: 100%;
+  display: flex;
+  justify-self: center;
+}
+
+#number_01{
+  text-align: center;
+  margin-left: 8rem;
+}
+
+.people{
+ width: 100%;
+ margin-top: -40rem;
+}
+
+
+
+#people_section{
+  margin-left: -18rem;
+  font-size: medium;
+}
+
+
+#people_section h2{
+  font-size: 2rem;
+}
+
+.btn3{
+margin-top: -40rem;
+}
+
+
+#due{
+  width: 40%;
+  font-size: 15px;
+}
+
+.movement{
+  width: 135%;
+  grid-template-columns:1fr ;
+}
+
+.join_movement{
+  font-size: small;
+  margin-left: 4rem;
+}
+
+
+.boxingimg{
+  height: 350px;
+  width: 230px;
+  margin-left: 0.2rem;
+  display: flex;
+  justify-self: center;
+}
+
+.reservation{
+  padding: 50%;
+}
+
+.booking p{
+  color: white;
+  text-align: center;
+  width: 100%;
+  margin-left: 1rem;
+  font-size: small;
+  
+}
+
+.form_contain{
+  margin-left: 2rem;
+}
+
+#inputBox input{
+  width: 100%;
+  padding: .8rem 0.4rem;
+  font-size: 1rem;
+  color:black;
+
+  margin-top: 1.5rem;
+}
+
+
+#messsage{
+  width: 100%;
+}
+
+
+}

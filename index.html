@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Refuel Your Energy</title>
+  
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+      <!-- Font Awesome 6 CDN -->
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+   <link rel="stylesheet" href="./normalize.css">
+   <link rel="stylesheet" href="./styles.css">
+   <link rel="icon" href="img/gymlogo.png" type="image/png">
+
+   
+</head>
+<body>
+    <div class="main-wrapper"> 
+        <div class="wrapper">
+            <nav class="nav-wrapper">
+                <div class="logo">
+                    <img src="img/gymlogo.png" alt="">
+                </div>    
+            </nav>   
+                
+            <div class="featured">
+             <h2>LIVE. MOVE. REFUEL.</h2>
+            </div>
+        </div>
+        <div class="contentTrainers">
+             <h2 class="featured">MEET YOUR TRAINERS</h2>
+            <div class="trainers">
+                <div class="tutor">
+                    <img class="imgTrainers1" src="img/img6.jpg" alt="">
+                    <h3>MIKE NORTON</h3>
+                    <p class="trainers_text">is committed to helping individuals achieve their fitness goals through 
+                        personalized workout plans, motivation, and expert guidance.</p>
+                    <button class="btn">Read more</button>
+                </div>
+                <div class="tutor">
+                    <img class="imgTrainers2" src="img/img8.jpg" alt="">
+                    <h3>JEFF PERRY</h3>
+                    <p class="trainers_text">is committed to helping individuals achieve their fitness goals through personalized workout plans, motivation, 
+                        and expert guidance. Whether you're a beginner or an experienced athlete,.</p>
+                    <button class="btn">Read more</button>
+                </div>
+            </div>
+
+        </div>
+        <div class="membership">
+           <br><br><h2>BEST GYM MEMBERSHIP</h2>
+            <div class="sampleText">
+               
+                <p> <i class="bi bi-check-circle-fill" id="check"></i>Access to Professional Equipment: Gym members have access to a variety of high-quality fitness equipment, 
+                    allowing for a more effective and diverse workout routine tailored to different fitness goals</p>
+            </div>
+            <div class="sampleText">
+                <p> <i class="bi bi-check-circle-fill" id="check"></i>Expert Guidance and Support: Many gyms offer personal 
+                    trainers and fitness classes, providing professional advice, customized workout plans, and motivation to help you reach your fitness goals safely and efficiently.
+
+                </p>
+            </div>
+            <div class="sampleText">
+                <p> <i class="bi bi-check-circle-fill" id="check"></i>Community and Motivation: Being part of a gym community creates a supportive environment where you can connect with 
+                    others, stay motivated, and hold yourself accountable to your fitness journey.</p>
+            </div>
+            <button class="btn2">Learn More about Us</button>
+        </div>
+        <div class="aboutUs">
+            <div class="man">
+                <img class="imgman" src="img/img7.jpg" alt="">
+            </div>
+            <div class="about">
+                <p>ABOUT US</p>
+                <h1>THIS PLACE IS SPECIAL...</h1>
+                <p id="aboutus_text">We’re dedicated to helping you achieve your fitness goals in a supportive and motivating environment. With state-of-the-art equipment, expert trainers, and a variety of classes, we cater to all fitness levels. Whether you're just starting your journey or aiming to level up, we're here to provide the tools and guidance you need for success. Join us and become part of 
+                    a community that thrives on strength, health, and transformation</p>
+            </div>
+            <div class="number">
+                <h1 id="number_01">01</h1>
+            </div>
+            
+        </div>
+        <!--what people say-->
+        <div class="people"> 
+            <div id="people_section">
+                <br><br><br><h2>WHAT PEOPLE SAY</h2>
+                <p id="due"> 
+                    Great atmosphere, top-notch equipment, and friendly, knowledgeable staff! The gym center offers everything you need 
+                    to achieve your fitness goals, from personalized training to group classes. Whether you're a beginner or experienced, you'll feel motivated and supported every step
+                     of the way. Highly recommend! </p>
+                    <div class="nick">Nick Cave</div><br><br>
+                    <button class="btn3">Read more</button>
+            </div>
+           
+
+        </div>
+        <!--join the movement-->
+        <div class="movement">
+            <div>
+                <div class="join_movement">
+                    <h1>JOIN THE MOVEMENT</h1>
+                    <p> Don’t wait – start your fitness journey today and be part of something bigger. Join us and move
+                         towards a healthier, stronger you</p>
+                </div>
+                <div class="join_movement">
+                    <h1>TRANSFORM LIVES</h1>
+                    <p> Our mission is to help you unlock your full potential through tailored workouts, expert guidance,
+                         and a supportive community. Whether you're looking to get stronger, healthier, or more confident,
+                          we’re here to guide you every step of the way. Join us today and start transforming your
+                         life—one workout at a time!</p>
+                </div>
+                <div class="join_movement">
+                    <h1>TRAIN FOR A RACE</h1>
+                    <p>we provide the expert training, personalized plans, and supportive environment you need to prepare for any race.
+                         Whether you're training for a 5k, marathon, or any endurance challenge, our tailored workouts and coaching
+                          will help you build strength, speed, and stamina. Join us today and train smarter to cross 
+                        that finish line stronger than ever</p>
+                </div>
+                
+            </div>
+            <div class="boxingman">
+                <img class="boxingimg" src="img/img1.jpg" alt="">
+            </div>
+        </div>
+<!--booking section starts-->
+<section class="booking">
+    <h1 class="heading-title">Make a Reservation</h1>
+    <p>Our clients are important to us, so we continually train our therapists to ensure that all treatments are of the highest
+        standard and that each client receives the best care’</p>
+    <form action="book_form.php" method="post" id="book-form">
+       <div id="flexi">
+            <div id="inputBox">
+                <span>name :</span>
+                <input type="text" placeholder="enter your name" name="name" required>
+            </div>
+
+            <div id="inputBox">
+                <span>email :</span>
+                <input type="email" placeholder="enter your email" name="email" required>
+            </div>
+
+            <div id="inputBox">
+                <span>phone :</span>
+                <input type="number" placeholder="enter your phone" name="phone" required>
+            </div>
+
+            <div id="inputBox">
+                <span>date :</span>
+                <input type="date">
+            </div>
+
+            <div id="inputBox">
+                <span>Message :</span>
+                <textarea placeholder="message (optional)" name="messsage" id="messsage" cols="30" rows="10"></textarea>>
+            </div>
+       </div>
+
+       <input type="submit" value="submit" class="btn" name="send">
+    </form>
+</section>
+
+<!--booking section ends-->
+    
+
+        </div>
+    </div>   
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
+
+
